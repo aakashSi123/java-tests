@@ -39,7 +39,7 @@ public class matrixaddition {
                             {
                                 for(int si=0;si<d;si++)
                                 {
-                                    result[a][d]=first[e][f]+second[e][f];
+                                    result[fi][si]=first[e][f]+second[e][f];
                                     System.out.println(result[fi][si]);
                                 }
                             }
