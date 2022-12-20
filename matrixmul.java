@@ -73,7 +73,7 @@ public class matrixmul {
     for(j=0;j<d;j++)
     {
         z[i][j]=0;
-        for(int k=0;k<2;k++)
+        for(int k=0;k<b;k++)
         z[i][j] =z[i][j]+x[i][k]*y[k][j];
         System.out.print(z[i][j]+" ");
     }
