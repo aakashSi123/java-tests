@@ -16,7 +16,7 @@ public class uppertolower {
             }
             else
             {
-                System.out.print(Character.toLowerCase(a.charAt(i)));
+                System.out.println(Character.toLowerCase(a.charAt(i)));
             }
 
         }
