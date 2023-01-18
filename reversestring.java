@@ -6,7 +6,7 @@ public class reversestring {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
 
-        for(int i =a.length();i>0;i--)  //suppose string is SAKSHI and have a length of 6 then
+        for(int i =a.length();i>0;i--)  //suppose string Aakash and have a length of 6 then
         {
             System.out.print(a.charAt(i-1));
         }
